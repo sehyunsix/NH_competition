@@ -23,7 +23,7 @@ class Yahoo_Date_Range(News_Downloader):
 
         days_each_time = 4
         date_list = self.date_list
-        # cal total lenth
+        # call   total length
         if len(date_list)%days_each_time == 0:
             total = len(date_list)//days_each_time
         else:
@@ -40,7 +40,7 @@ class Yahoo_Date_Range(News_Downloader):
                 bar.update(1)
 
         # res  = self.finnhub_client.company_news(stock, _from=start_date, to=end_date)
-        self.dataframe.datetime = pd.to_datetime(self.dataframe.datetime,unit = "s")
+        self.dataframe.datetime = pd.to_datetime(self.dataframe.datetime,errors = 'coerce',unit = "s")
         self.dataframe = self.dataframe.reset_index(drop = True)
 
     def _gather_one_part(self, start_date, end_date, stock = "AAPL", delay = 1):
