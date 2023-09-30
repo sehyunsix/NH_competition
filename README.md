@@ -3,8 +3,10 @@
 뉴스데이터를 이용한 감정 분석
 
 ## 뉴스데이터 수집
-
-
+```bash
+pip install -r FinNLP/requirments.txt
+```
+0. `finnlp`에서 제공한 `requirments.txt`설치
 ```bash
 python3 run.py
 ```
