@@ -1,3 +1,2 @@
 # NH_competition
 
-  
