@@ -6,7 +6,7 @@
 ```bash
 pip install -r FinNLP/requirments.txt
 ```
-0. `finnlp`에서 제공한 `requirments.txt`설치
+0.`finnlp`에서 제공한 `requirments.txt`설치
 ```bash
 python3 run.py
 ```
