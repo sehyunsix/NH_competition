@@ -22,3 +22,6 @@ from datasets import load_dataset
 dataset = load_dataset("sehyun66/Finnhub-News")
 ```
 5.huggingface에 업로드된 데이터 불러오기<br/>
+
+## Reference
+`finnlp` 링크 https://github.com/AI4Finance-Foundation/FinNLP
