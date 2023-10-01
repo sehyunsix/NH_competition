@@ -15,7 +15,7 @@ python3 run.py
 ```bash
 merge.ipynb
 ```
-3.모은 2743개의 data를 하나의 json형태로 `mergedata`파일에 저장<br/>
+3.총 2743게의 종목의 data를 하나의 json형태로 `mergedata`파일에 저장<br/>
 4.저장된 json파일을 huggingface에 업로드`sehyun66/Finhub-News`의 respository에 저장<br/>
 ```python
 from datasets import load_dataset
@@ -24,5 +24,6 @@ dataset = load_dataset("sehyun66/Finnhub-News")
 5.huggingface에 업로드된 데이터 불러오기<br/>
 
 ## Reference
+`hugginface` 링크 https://huggingface.co/datasets/sehyun66/Finnhub-News<br/>
 `finnlp` 링크 https://github.com/AI4Finance-Foundation/FinNLP<br/>
 `finnhub`링크 https://finnhub.io/
