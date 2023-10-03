@@ -1,0 +1,9 @@
+
+.data
+*.jsonl
+*.json
+*.pt
+*.pkl
+*.pycash
+__pycache__/
+FinNLP/
