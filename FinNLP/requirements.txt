@@ -1,0 +1,8 @@
+
+akshare
+tushare
+finnhub-python
+requests
+pandas
+tqdm
+pytz

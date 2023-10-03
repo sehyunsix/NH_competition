@@ -2,8 +2,12 @@
 .data
 *.jsonl
 *.json
+<<<<<<< HEAD
 *.pt
 *.pkl
 *.pycash
 __pycache__/
 FinNLP/
+=======
+*.pt
+>>>>>>> f95d36f2664297b878e61e54e0e9d24430adc66b
